@@ -1,0 +1,12 @@
+git command for this projects
+first create project:
+git init
+git add .
+git remote add origin https://....
+
+
+
+after editted this file in projects, let:
+git add . -> add all file to git clone
+git commit -m "what is editted in projects?"
+git push -u origin master/branch
