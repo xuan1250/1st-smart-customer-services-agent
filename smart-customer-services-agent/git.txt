@@ -1,4 +1,5 @@
 git command for this project
+
 first create project:
 git init -> create project into clone local
 git add . -> add all changed to clone local
