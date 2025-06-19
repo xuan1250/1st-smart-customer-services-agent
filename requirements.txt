@@ -1,0 +1,8 @@
+langgraph
+langchain
+openai
+chromadb
+fastapi
+uvicorn
+python-dotenv
+tiktoken
