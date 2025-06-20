@@ -17,5 +17,5 @@ SAMPLE_FAQ = [
         "content": "To reset your password, click 'Forgot Password' on the login page. You'll receive an email with reset instructions within 5 minutes.",
         "keywords": ["password", "login", "account", "reset"]
     },
-    # Add more FAQs as needed
+    # Add more FAQs as needed ///
 ]
