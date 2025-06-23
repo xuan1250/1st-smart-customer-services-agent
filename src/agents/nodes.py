@@ -56,7 +56,7 @@ class CustomerServiceNodes:
         if search_results['documents']:
             for i, doc in enumerate(search_results['documents'][0]):
                 retrieve_docs.append({
-                    "content":docs,
+                    "content": doc,
                     "metadata": search_results["metadatas"][0][i],
                     "distance": search_results['distances'][0][i]
                 })
@@ -73,7 +73,7 @@ class CustomerServiceNodes:
         intent = state["intent"]
 
         #Build context from retrieved documents
-        context = "\n".join([doc["content"] for doc in retrieve_docs[:2]])
+        context = "\n".join([doc["content"] for doc in retrieved_docs[:2]])
 
         system_prompt = f"""
         You are a helpful customer service representative.
